@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "npx cross-env NODE_OPTIONS='--openssl-legacy-provider' next dev",
-    "build": "npx cross-env NODE_OPTIONS='--openssl-legacy-provider' next build && next export",
+    "build": "npx cross-env NODE_OPTIONS='--openssl-legacy-provider' next build",
     "start": "npx cross-env NODE_OPTIONS='--openssl-legacy-provider' next start"
   },
   "dependencies": {
