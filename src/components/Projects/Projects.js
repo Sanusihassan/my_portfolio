@@ -30,7 +30,7 @@ const Projects = () => {
   return (
     <Section nopadding id="projects">
       <SectionDivider />
-      <SectionTitle main>Open Source Projects</SectionTitle>
+      <SectionTitle main>Projects</SectionTitle>
       <GridContainer>
         {projects.map((p, i) => {
           return (
